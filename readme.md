@@ -56,12 +56,13 @@ The **Indexer API** facilitates the indexing of off-chain transactions before st
 - **Index New Block:** Indexes a new block using a POST request.
   ```bash
   curl -X POST -d "newblock" http://localhost:5001/post_transaction
-
+  ```
 
 - **Read Indexed Data:** Retrieves indexed transaction data using a GET request.
+ 
   ```bash
-curl -X GET http://localhost:5001/get_transaction
-
+    curl -X GET http://localhost:5001/get_transaction
+  ```
 
 
 
