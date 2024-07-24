@@ -12,6 +12,3 @@ Usage information can be obtained by running:
 $ ipfs-cluster-ctl --help
 ```
 
-You can also obtain command-specific help with `ipfs-cluster-ctl help [cmd]`. The (`--host`) can be used to talk to any remote cluster peer (`localhost` is used by default).
-
-For more information, please check the [Documentation](https://ipfscluster.io/documentation), in particular the [`ipfs-cluster-ctl` section](https://ipfscluster.io/documentation/ipfs-cluster-ctl).

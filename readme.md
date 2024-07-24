@@ -64,15 +64,7 @@ curl -X GET http://localhost:5001/get_transaction
 
 
 
-## Experimentation
 
-The aim of this experiment is to evaluate the efficiency of the proposed approach in terms of storage and query retrieval times. We have implemented and configured our test environment on a Dell PowerEdge R640 server. The environment includes:
-
-- Blockchain nodes developed using Python, implementing functionalities such as consensus, block structure with cryptographic chaining, block management, and ledger operations.
-- Nodes running on Flask, facilitating transaction handling and employing an Epidemic Gossip Protocol for peer-to-peer data exchange.
-- An indexer API built on Flask for client interaction with the storage node, enabling efficient data retrieval and filtering.
-- Apache Cassandra set up in a Docker container cluster for off-chain storage.
-- An IPFS cluster with three nodes for comparison.
 
 The read and write operations to and from these nodes and how these components interact will be presented in the subsequent section.
 
